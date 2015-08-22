@@ -1,0 +1,28 @@
+{
+  "builders": [
+    {
+      "vm_name": "intro-to-os",
+      "output_directory": "packer-build",
+      "type": "virtualbox-ovf",
+      "source_path": "../download/ud923-ubuntu-14-04.ova",
+      "ssh_username": "adminuser",
+      "ssh_password": "adminuser",
+      "shutdown_command": "sudo shutdown -P now"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+          "(echo 'adminuser' | sudo -S sh -c \"(echo 'adminuser ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers)\")",
+          "sudo update-rc.d ssh defaults"
+      ]
+    }
+  ],
+  "post-processors": [
+    {
+      "type": "vagrant",
+      "output": "packer_intro-to-os_vagrant.box"
+    }
+  ]
+}
