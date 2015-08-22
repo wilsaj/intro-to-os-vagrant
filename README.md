@@ -9,10 +9,11 @@ the VM from the command line by providing simple commands to start, stop and ssh
 into the VM.
 
 
-Only two changes have been made, because they are required to support vagrant:
+Only two changes have been made, because they are by vagrant:
 
 - `adminuser` has passwordless sudo enabled
 - openssh-server has been installed and will run on boot
+
 
 
 ok, let's go
@@ -53,3 +54,14 @@ time to figure that out - sorry!
 
 4. wait for the packer build to finish
 
+
+
+troubleshooting: it's broken
+----------------------------
+
+Oh no, sorry about that. Feel free to [open an
+issue](https://github.com/wilsaj/intro-to-os-vm/issues), but you are probably
+better off falling back to the official course instructions for setting up a VM.
+In particular, Windows support is kind of dicey since I don't use it very often
+for software development. I don't want to keep you from getting your work done
+and it may be a while before I get back to you.
