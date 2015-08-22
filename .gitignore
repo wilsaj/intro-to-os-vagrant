@@ -1,0 +1,4 @@
+.vagrant/
+download/
+packer/packer_cache
+packer/packer_intro-to-os_vagrant.box
