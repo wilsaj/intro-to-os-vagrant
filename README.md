@@ -24,8 +24,8 @@ ok, let's go
 2. either clone or download this repo and `cd` into the directory
 
 3. now you should be able to run `vagrant up` to start the box and `vagrant ssh`
-   to login as adminuser - this `./intro-to-cs-vm` directory will be sync'd to to
-   `/vagrant` on the VM
+   to login as adminuser - this `./intro-to-os-vagrant` directory will be sync'd
+   to to `/vagrant` on the VM
 
 4. optional: see the commented parts Vagrantfile for info on how to adjust RAM,
    CPU or link a different synced directory
