@@ -15,10 +15,10 @@ Vagrant.configure(2) do |config|
   # uncommenting the local version.
   #
   # hosted version: use this version for the hosted vagrant box
-  #config.vm.box = "wilsaj/intro-to-os"
+  config.vm.box = "wilsaj/intro-to-os"
 
   # local version: use this version if you built your own vagrant box locally
-  config.vm.box = "intro-to-os"
+  #config.vm.box = "intro-to-os"
 
   # Use 'adminuser' credentials for vagrant to log in. Don't change this.
   config.ssh.username = "adminuser"
