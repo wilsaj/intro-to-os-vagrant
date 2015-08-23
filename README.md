@@ -28,10 +28,12 @@ ok, let's go
 4. run `vagrant ssh` to log in as adminuser. By default, the repo
    `./intro-to-os-vagrant` directory will be sync'd to to `/vagrant` on the VM
    so you can edit in files on your host machine and they'll appear in
-   `/vagrant/` from the VM
+   `/vagrant/` from the VM. Check out the comments about
+   `config.vm.synced_folder` in the `Vagrantfile` for info about how add another
+   synced directory (recommended).
 
-5. optional: see the commented parts Vagrantfile for info on how to adjust RAM,
-   CPU or link a different synced directory
+5. optional: you can adjust the amount of RAM (default: 1GB) and number of CPUs
+   (default 2) by editing the appropriate sections of the `Vagrantfile`
 
 
 
