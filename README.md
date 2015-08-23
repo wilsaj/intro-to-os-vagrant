@@ -21,13 +21,16 @@ ok, let's go
 
 1. install [vagrant](https://vagrantup.com)
 
-2. either clone or download this repo and `cd` into the directory
+2. either clone or download this repo and `cd` into this repo directory
 
-3. run `vagrant up` to start the box and `vagrant ssh`
-   to login as adminuser - this `./intro-to-os-vagrant` directory will be sync'd
-   to to `/vagrant` on the VM
+3. run `vagrant up` to build and start the box
 
-4. optional: see the commented parts Vagrantfile for info on how to adjust RAM,
+4. run `vagrant ssh` to log in as adminuser. By default, the repo
+   `./intro-to-os-vagrant` directory will be sync'd to to `/vagrant` on the VM
+   so you can edit in files on your host machine and they'll appear in
+   `/vagrant/` from the VM
+
+5. optional: see the commented parts Vagrantfile for info on how to adjust RAM,
    CPU or link a different synced directory
 
 
