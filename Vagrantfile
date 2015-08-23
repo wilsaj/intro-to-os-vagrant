@@ -33,8 +33,9 @@ Vagrant.configure(2) do |config|
 
   # Virtualbox configuration:
   config.vm.provider "virtualbox" do |vb|
-    # uncomment to display the VirtualBox GUI when booting the machine
-    #vb.gui = true
+    # comment this out or set to false to to avoid to displaying the VirtualBox
+    # GUI when booting the machine
+    vb.gui = true
 
     # Customize the amount of memory on the VM:
     vb.memory = "1024"
