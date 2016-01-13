@@ -9,7 +9,7 @@ the VM from the command line by providing simple commands to start, stop and ssh
 into the VM.
 
 
-Only two changes have been made, because they are by vagrant:
+Only two changes have been made, because they are required by vagrant:
 
 - `adminuser` has passwordless sudo enabled
 - openssh-server has been installed and will run on boot
