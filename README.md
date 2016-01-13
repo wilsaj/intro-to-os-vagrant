@@ -64,7 +64,7 @@ time to figure that out - sorry!
 troubleshooting: it's broken
 ----------------------------
 
-Oh no, sorry about that. Feel free to [open an
+Oh no. Feel free to [open an
 issue](https://github.com/wilsaj/intro-to-os-vm/issues), but you are probably
 better off falling back to the official course instructions for setting up a VM.
 In particular, Windows support is kind of dicey since I don't use it very often
